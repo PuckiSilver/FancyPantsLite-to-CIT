@@ -69,7 +69,7 @@ def save_properties(colors1:list, colors2:list, fpl_path:str):
     for color in unique:
         path = basepath + f'optifine/cit/fancypantslite/armor_{color_to_hex(color)}.properties'
         properties = [
-            "# Generated using https://github.com/PuckiSilver/FancyPantsLite by PuckiSilver", #!
+            "# Generated using https://github.com/PuckiSilver/FancyPantsLite-to-CIT by PuckiSilver",
             "type=armor",
             "weight=1"]
         items = []
@@ -100,7 +100,7 @@ def create_files(img:Image.Image) -> dict:
     return textures
 
 def create_base_properties() -> list[str]:
-    return ["# Generated using https://github.com/PuckiSilver/FancyPantsLite by PuckiSilver", #!
+    return ["# Generated using https://github.com/PuckiSilver/FancyPantsLite-to-CIT by PuckiSilver",
             "type=armor",
             "items=minecraft:leather_helmet minecraft:leather_chestplate minecraft:leather_leggings minecraft:leather_boots",
             "texture.leather_layer_1=base_leather_armor_1",
