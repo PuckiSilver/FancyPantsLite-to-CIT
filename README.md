@@ -2,10 +2,10 @@
 Drag [FancyPantsLite](https://github.com/PuckiSilver/FancyPantsLite) textures onto this program to convert them into the CIT format
 
 ## How to convert the Texture
-0. Have [Python](https://www.python.org/downloads/) installed and download [the python program](FancyPants-to-CIT.py)
+0. Have [Python](https://www.python.org/downloads/) installed and download [the python program](FancyPantsLite-to-CIT.py)
 1. Select both of your armor textures (`leather_layer_1` and `leather_layer_2`) in the [FancyPantsLite](https://github.com/PuckiSilver/FancyPantsLite) format
    - They have to be in an unzipped resource pack
-3. Drag the two files onto [the .py file](FancyPants-to-CIT.py)
+3. Drag the two files onto [the .py file](FancyPantsLite-to-CIT.py)
 
 Then it should create all required files in the `assets/minecraft/optifine/cit/fancypantslite` folder and your resource pack now works with CIT
 
